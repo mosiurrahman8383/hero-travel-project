@@ -81,7 +81,7 @@ nav a {
     margin: 50px auto;
     text-align: center;
     align-items: center;
-    height: 100%;
+
     box-shadow: inset 0 300px 100px 0px rgba(0, 0, 0, 0.6);
     border-radius: 14px;
 }
@@ -251,6 +251,81 @@ nav a {
     }
 
 
+    /* Deals and Discount section start */
+
+    .deals-container{
+        max-width: 1170px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-1{
+        background-image: url(../assets/Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        /* border-radius: 14px; */
+    }
+
+    .container-2{
+        background-image: url(../assets/Images/Group\ 40.png);
+        background-repeat: no-repeat;
+        /* border-radius: 14px; */
+    }
+    .container-3{
+        background-image: url(../assets/Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        /* border-radius: 14px; */
+    }
+
+    .discount{
+        width: 45%;
+        background-color: rgba(255, 255, 255, 0.80);
+        border-radius: 15px;
+        padding: 40px;
+
+        /* margin: 40px; */
+        text-align: left;
+        border: 2px solid #FFF;
+    }
+
+    .discount-container{
+        padding: 66px 0 66px 66px;
+        /* margin: 20px; */
+        margin-bottom: 20px;
+       
+    }
+
+    .deals> h1{
+        font-size: 02.5rem;
+        font-weight: 800;
+    }
+
+    .deals> p{
+        margin: 40px;
+    }
+
+  
+
+    .discount-title{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .price{
+        margin: 20px 0;
+        font-weight: 800;
+        font-size: 1.25rem;
+        color: #FF5400;
+
+    }
+
+    .deals-1{
+        position: relative;
+        left: 42%;
+    }
+
+
+
+
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
@@ -313,7 +388,7 @@ nav a {
     }
 
     .Popular-Tours img{
-        /* flex-direction: column; */
+        
         width: 100%;
 
     }
@@ -365,6 +440,65 @@ nav a {
     .box-3{
         position: static;
     }
+
+    .container-1{
+        background-position: center;
+        /* width: 100%; */
+        /* margin: 20px; */
+        padding: 0;
+       
+    }
+    .container-2{
+        background-position: center;
+        padding: 0;
+    }
+
+    .deals-container{
+        margin: 20px;
+        
+    }
+
+    .discount-container{
+        border-radius: 20px;
+        padding: 160px 20px 20px 20px;
+    }
+
+    .discount{
+        padding: 10px;
+    }
+
+    .deals-1{
+        position: static;
+        /* align-items: center; */
+        width: 85%;
+        padding: 20px;
+       
+    }
+
+    .discount-title{
+        font-size: 1.25rem;
+        margin: 10px 0;
+    }
+
+    .btn-read-more{
+        font-size: 1rem;
+    }
+
+    .price{
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .deals> h1{
+        font-size: 1.25rem;
+        
+    }
+
+    .deals> p{
+        /* padding: 10px; */
+        margin: 20px;
+    }
+
 
 
 }
@@ -493,5 +627,63 @@ nav a {
         position: static;
     }
 
+    
+    .container-1{
+        background-position: center;
+        /* width: 100%; */
+        /* margin: 20px; */
+        padding: 0;
+       
+    }
+    .container-2{
+        background-position: center;
+        padding: 0;
+    }
+
+    .deals-container{
+        margin: 50px;
+        
+    }
+
+    .discount-container{
+        border-radius: 20px;
+        padding: 160px 20px 20px 20px;
+    }
+/* 
+    .discount{
+        padding: 10px;
+    } */
+
+    .deals-1{
+        position: static;
+        /* align-items: center; */
+        width: 94%;
+        padding: 20px;
+       
+    }
+
+    .discount-title{
+        font-size: 1.25rem;
+        margin: 10px 0;
+    }
+
+    .btn-read-more{
+        font-size: 1rem;
+    }
+
+    .price{
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .deals> h1{
+        font-size: 2.25rem;
+        
+    }
+
+    .deals> p{
+        /* padding: 10px; */
+        margin: 50px;
+    }
 
 }
