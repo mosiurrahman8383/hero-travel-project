@@ -1,97 +1,101 @@
-*{
+* {
     /* margin: 0; */
-  font-family: "Mulish", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 
 }
+
 /* header section styles start */
 
 nav {
     display: flex;
     justify-content: space-between;
     margin: 40px 150px;
-  
+
 }
-.nav-title{
+
+.nav-title {
     font-size: 2.4rem;
     font-weight: 800;
 }
-nav img{
+
+nav img {
     /* width: 100%; */
     width: 55px;
     height: 50px;
 }
 
-.pri-color{
+.pri-color {
     color: #FF5400;
 }
 
-.nav-div{
+.nav-div {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 
     gap: 40px;
 }
 
-nav li{
+nav li {
     list-style: none;
-    
+
 }
 
-nav a{
+nav a {
     text-decoration: none;
-    
+
     font-size: 1.25rem;
     color: #424247;
 }
 
-.home{
-     color: #FF5400;
-     font-weight: 800;
-     font-size: 1.25rem;
+.home {
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 1.25rem;
 }
 
 /* banner section styles start */
 
-.banner{
+.banner {
     background-image: url(../assets/Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    
+
     max-width: 1196px;
     height: 100%;
     margin: 50px auto;
     text-align: center;
     align-items: center;
     height: 100%;
-    box-shadow: inset 0 250px 100px 0px rgba(0, 0, 0,0.6);
-    border-radius: 14px ;
+    box-shadow: inset 0 300px 100px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 14px;
 }
 
-.banner-container{
-    padding: 70px 100px 70px 100px ;
+.banner-container {
+    padding: 70px 100px 70px 100px;
     color: #FFF;
     /* box-shadow: inset  0px 30px 0px rgba(0, 0, 0,0.5); */
 }
 
-.banner-title{
+.banner-title {
     font-weight: 800;
     font-size: 4rem;
     color: #FFF;
 }
 
-.banner-des{
+.banner-des {
     padding-bottom: 40px;
 }
-.banner-form{
+
+.banner-form {
     display: flex;
     gap: 24px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -100,18 +104,28 @@ nav a{
     align-items: center;
 }
 
-.inputs{
+.inputs {
     padding: 20px 10px;
     width: 25%;
     border-radius: 10px;
     border: 0;
-    
+
 }
-.inputs::placeholder{
+
+
+.select {
+    width: 25%;
+    padding: 20px 10px;
+
+    border-radius: 10px;
+    border: 0;
+}
+
+.inputs::placeholder {
     color: rgba(19, 19, 24, 0.50);
 }
 
-.btn-one{
+.btn-one {
     padding: 20px 10px;
     width: 20%;
     border-radius: 10px;
@@ -120,6 +134,96 @@ nav a{
     color: #FFF;
 }
 
-.banner-form{
+.banner-form {
     /* padding: 150px; */
+}
+
+
+/* responsive for small device */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .banner {
+        margin: 20px;
+        background-position: center;
+    }
+
+    .banner-container {
+        padding: 20px;
+    }
+
+    .banner-title {
+        font-size: 1.4rem;
+        /* padding-top: 20px; */
+    }
+
+    .banner-des {
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+
+    .banner-form {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .banner-form .inputs {
+        width: 90%;
+
+    }
+
+    .select {
+        width: 100%;
+        padding: 20px 10px;
+
+        border-radius: 10px;
+        border: 0;
+    }
+
+
+    .btn-one {
+        width: 100%;
+    }
+
+}
+
+/* Responsive for medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        margin: 50px;
+
+    }
+    nav> ul{
+        gap: 10px;
+    }
+    .nav-title{
+        font-size: 1.60rem;
+    }
+
+    .banner-container{
+         padding: 0;
+    }
+    .banner{
+        margin: 50px;
+        /* box-shadow: inset 0 100px 50px 0 rgba(0, 0, 0, 0.6); */
+        padding: 50px;
+    }
+
+    .banner-title{
+        margin-top: 0;
+        font-size: 3rem;
+    }
 }
