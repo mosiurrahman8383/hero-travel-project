@@ -324,6 +324,76 @@ nav a {
     }
 
 
+    /* Newslatter Section start */
+
+    .Newsletter-container{
+        display: flex;
+        gap: 20px;
+        margin: 50px auto;
+        max-width: 1170px;
+       
+    }
+
+    .Newsletter-content{
+        padding: 30px 30px 55px 30px ;
+        border: 2px solid #FF5400;
+        border-radius: 15px;
+        height: 100%;
+    }
+
+    .Newsletter-content> .form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .form input{
+        padding: 20px;
+        border-radius: 10px;
+        border: 0;
+        background-color: rgba(19, 19, 24, 0.05);
+        color: #716c69;
+    }
+
+    .form input::placeholder{
+        font-weight: 600;
+    }
+
+    .btn-newslater{
+        background-color: #FF5400;
+        color: #FFF;
+        width: 100%;
+        border: 0;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 800;
+    }
+
+    .offer{
+        background-color: #FF5400;
+        color: #FFF;
+        text-align: center;
+        padding: 15px 25px ;
+        width: 40%;
+        border-radius: 15px;
+        position: relative;
+        left: 52%;
+        bottom: 35%;
+        transform: rotate(-30deg);
+    }
+
+    .offer-title{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .offer> h1{
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 10px 0 0 0;
+    }
+
 
 
 /* responsive for small device */
@@ -497,6 +567,27 @@ nav a {
     .deals> p{
         /* padding: 10px; */
         margin: 20px;
+    }
+
+    .Newsletter-container{
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .Newsletter-img img{
+        width: 100%;
+    }
+    .offer{
+        position: static;
+        transform: none;
+        width: 85%;
+    }
+
+    .offe> P{
+        font-size: 1rem;
+    }
+    .offer> h1{
+        font-size: 1.25rem;
     }
 
 
@@ -686,4 +777,29 @@ nav a {
         margin: 50px;
     }
 
+    
+    .Newsletter-container{
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .Newsletter-img img{
+        width: 100%;
+    }
+    .offer{
+        position: relative;
+        left: 47%;
+        bottom: 187px;
+   
+    
+        
+    }
+    .offer > P{
+        font-size: 1rem;
+    }
+    .offer> h1{
+        font-size: 1.25rem;
+    }
+
 }
+
