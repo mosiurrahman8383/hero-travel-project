@@ -593,6 +593,12 @@ footer {
         padding: 20px;
 
     }
+    .deals-2{
+        position: static;
+     
+        width: 85%;
+        padding: 20px;
+    }
 
     .discount-title {
         font-size: 1.25rem;
@@ -830,6 +836,16 @@ footer {
         padding: 20px;
 
     }
+
+    .deals-2 {
+        position: static;
+        /* align-items: center; */
+        width: 94%;
+        padding: 20px;
+
+    }
+
+
 
     .discount-title {
         font-size: 1.25rem;
