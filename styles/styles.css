@@ -180,7 +180,7 @@ nav a {
     }
 
     .banner-form .inputs {
-        width: 90%;
+        width: 93%;
 
     }
 
@@ -202,6 +202,9 @@ nav a {
 /* Responsive for medium device */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    *{
+        margin: 0;
+    }
     nav{
         margin: 50px;
 
