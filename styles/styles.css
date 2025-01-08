@@ -211,10 +211,18 @@ nav a {
     }
     nav> ul{
         gap: 10px;
+        font-size: 0.8rem;
+        padding: 0 ;
     }
     .nav-title{
-        font-size: 1.60rem;
+        font-size: 1.25rem;
     }
+    nav li{
+        /* font-size: 1rem; */
+        /* gap: 10px; */
+    }
+
+    
 
     .banner-container{
          padding: 0;
@@ -222,11 +230,34 @@ nav a {
     .banner{
         margin: 50px;
         /* box-shadow: inset 0 100px 50px 0 rgba(0, 0, 0, 0.6); */
-        padding: 50px;
+        padding: 30px;
+        background-position: center;
     }
 
     .banner-title{
         margin-top: 0;
         font-size: 3rem;
+    }
+    .banner-form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-form .inputs {
+        width: 94%;
+        padding-left: 20px;
+
+    }
+
+    .select {
+        width: 100%;
+        padding-left: 20px;
+
+        /* border-radius: 10px;
+        border: 0; */
+    }
+
+
+    .btn-one {
+        width: 100%;
     }
 }
