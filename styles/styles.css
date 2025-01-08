@@ -1,3 +1,5 @@
+/* shared items */
+
 * {
     /* margin: 0; */
     font-family: "Mulish", serif;
@@ -5,6 +7,11 @@
     font-weight: <weight>;
     font-style: normal;
 
+}
+
+.section-des{
+    color: rgba(19, 24, 24, 0.70);
+    font-size: 1rem;
 }
 
 /* header section styles start */
@@ -134,15 +141,44 @@ nav a {
     color: #FFF;
 }
 
-.banner-form {
-    /* padding: 150px; */
+/* Popular Tours section start */
+
+.Popular-Tours{
+    display: flex;
+    margin: 130px;
+    gap: 50px;
+}
+
+.tour-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-top: 10px;
+}
+
+.btn-read-more{
+    padding: 15px 30px;
+    color: #FFF;
+    background-color: #FF5400;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.tour-content p, .tour-li{
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.tour-img img {
+    height: 100%;
 }
 
 
 /* responsive for small device */
 
 @media screen and (max-width: 576px) {
-    nav {
+    nav , .Popular-Tours{
         flex-direction: column;
         margin: 20px;
         align-items: center;
@@ -197,6 +233,11 @@ nav a {
         width: 100%;
     }
 
+    .Popular-Tours img{
+        /* flex-direction: column; */
+        width: 100%;
+
+    }
 }
 
 /* Responsive for medium device */
@@ -270,5 +311,14 @@ nav a {
 
     .btn-one {
         width: 100%;
+    }
+    .Popular-Tours{
+        flex-direction: column;
+        margin: 50px;
+    }
+    .Popular-Tours img{
+        
+        width: 100%;
+
     }
 }
