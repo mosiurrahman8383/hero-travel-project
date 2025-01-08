@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* select option[value=""] {
+            color: grey; /* Change this to your desired color */
+        } */
+        select:invalid {
+            color: rgb(246, 13, 13); /* Change this to match the placeholder color */
+        }
+    </style>
+    <title>Dropdown Placeholder Color</title>
+</head>
+<body>
+    <form>
+        <label for="when">When</label>
+        <select id="when" name="when" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+        </select>
+
+        <label for="type">Select Type</label>
+        <select id="type" name="type" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="meeting">Meeting</option>
+            <option value="appointment">Appointment</option>
+            <option value="event">Event</option>
+            <option value="task">Task</option>
+        </select>
+    </form>
+</body>
+</html>
