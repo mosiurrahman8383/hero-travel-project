@@ -217,9 +217,13 @@ nav a {
     .nav-title{
         font-size: 1.25rem;
     }
-    nav li{
-        /* font-size: 1rem; */
+    nav li a{
+        font-size: 1rem;
         /* gap: 10px; */
+    }
+
+    nav .home{
+        font-size: 1rem;
     }
 
     
@@ -230,13 +234,20 @@ nav a {
     .banner{
         margin: 50px;
         /* box-shadow: inset 0 100px 50px 0 rgba(0, 0, 0, 0.6); */
-        padding: 30px;
+        padding: 20px;
         background-position: center;
     }
 
     .banner-title{
         margin-top: 0;
-        font-size: 3rem;
+        /* margin-bottom: 10px; */
+        /* padding-bottom: 10px; */
+        font-size: 2.4rem;
+    }
+
+    .banner-des{
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
     .banner-form{
         flex-direction: column;
