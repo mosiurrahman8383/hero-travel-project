@@ -202,6 +202,54 @@ nav a {
         
     }
 
+    /* why choose us start */
+
+    .why-choose-us{
+        text-align: center;
+        margin: 135px;
+    }
+    .content-title{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .choose-cotent{
+        margin: 50px;
+    }
+
+    .choose-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        /* grid-template-rows: 1fr auto; */
+        gap: 20px;
+        
+    }
+    .choose-img{
+        border-radius: 15px;
+        text-align: left;
+        padding: 30px;
+    }
+
+    .box-1 {
+        /* border: 2px solid; */
+        background-color: rgba(251, 181, 99, 0.10);
+        border: 2px solid rgba(251, 181, 99, 0.50);
+    }
+    .box-2 {
+        background-color: rgba(41, 206, 246, 0.10);
+        border: 2px solid rgba(41, 206, 246, 0.50);
+    }
+    .box-3 {
+        background-color: rgba(233, 68, 68, 0.10);
+        border: 2px solid rgba(233, 68, 68, 0.50);
+        position: relative;
+        left:50%;
+    }
+
+    .choose-img img{
+        width: 10%;
+    }
+
 
 /* responsive for small device */
 
@@ -290,6 +338,35 @@ nav a {
         margin: 0;
         margin-top: 20px;
     }
+    .why-choose-us{
+        /* text-align: center; */
+        margin: 20px;
+    }
+
+    .choose-cotent{
+        margin: 0px;
+        
+    }
+
+    .content-title{
+        font-size: 1.25rem;
+        margin: 20px 0;
+
+    }
+
+    .choose-cotent> p{
+        margin: 20px 0;
+    }
+
+    .choose-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .box-3{
+        position: static;
+    }
+
+
 }
 
 /* Responsive for medium device */
@@ -395,5 +472,26 @@ nav a {
         margin: 0;
         margin-top: 20px;
     }
+
+    .why-choose-us{
+        margin: 50px;
+    }
+
+    .content-title{
+        font-size: 2.25rem;
+    }
+
+    .choose-cotent> p{
+        margin: 50px 0;
+    }
+
+    .choose-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .box-3{
+        position: static;
+    }
+
 
 }
